@@ -1,7 +1,6 @@
 import React from "react";
 
 export function PokeCard(props) {
-	console.log(props);
 	let card = (
 		<div class="row card" style={{ backgroundColor: "#FFCA32" }}>
 			<div
@@ -10,11 +9,6 @@ export function PokeCard(props) {
 					marginTop: "1rem",
 					marginBottom: "1rem",
 					padding: "1rem",
-					background: "#ffb389",
-					background:
-						"-moz-linear-gradient(-45deg,  #ffb389 0%, #f53458 10%, #ffb389 20%, #f53458 30%, #ffb389 40%, #f53458 50%, #ffb389 60%, #f53458 70%, #f53458 70%, #ffb389 80%, #f53458 90%, #ffb389 100%)",
-					background:
-						"-webkit-linear-gradient(-45deg,  #ffb389 0%,#f53458 10%,#ffb389 20%,#f53458 30%,#ffb389 40%,#f53458 50%,#ffb389 60%,#f53458 70%,#f53458 70%,#ffb389 80%,#f53458 90%,#ffb389 100%)",
 					background:
 						"linear-gradient(135deg,  #ffb389 0%,#f53458 10%,#ffb389 20%,#f53458 30%,#ffb389 40%,#f53458 50%,#ffb389 60%,#f53458 70%,#f53458 70%,#ffb389 80%,#f53458 90%,#ffb389 100%)"
 				}}

@@ -9,5 +9,5 @@ import App from "./App";
  * README.md file
  */
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById("canvas");
 ReactDOM.render(<App />, rootElement);
